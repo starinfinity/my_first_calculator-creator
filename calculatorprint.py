@@ -18,7 +18,7 @@ while i < 100:
     j = 0
     while j < 100:
         f.write("if num1 == %d and sign == '+' and num2 == %d :" %(i , j))
-        f.write("print(\" %d + %d = %d \"" %(i, j, i+j))
+        f.write("\tprint(\" %d + %d = %d \"" %(i, j, i+j))
         j += 1
     i += 1
 
@@ -27,7 +27,7 @@ while i < 100:
     j = 0
     while j < 100:
         f.write("if num1 == %d and sign == '-' and num2 == %d :" %(i , j))
-        f.write("print(\" %d - %d = %d \"" %(i, j, i-j))
+        f.write("\tprint(\" %d - %d = %d \"" %(i, j, i-j))
         j += 1
     i += 1
 
@@ -36,7 +36,7 @@ while i < 100:
     j = 0
     while j < 100:
         f.write("if num1 == %d and sign == '*' and num2 == %d :" %(i , j))
-        f.write("print(\" %d + %d = %d \"" %(i, j, i*j))
+        f.write("\tprint(\" %d + %d = %d \"" %(i, j, i*j))
         j += 1
     i += 1
 
@@ -47,11 +47,11 @@ while i < 100:
     while j < 100:
         if i == 0 or j == 0:
             f.write("if num1 == %d and sign == '/' and num2 == %d :" %(i , j))
-            f.write("print(\" %d + %d = 0 \"" %(i, j))
+            f.write("\tprint(\" %d + %d = 0 \"" %(i, j))
             j += 1
         else:
             f.write("if num1 == %d and sign == '/' and num2 == %d :" %(i , j))
-            f.write("print(\" %d + %d = %d \"" %(i, j, i/j))
+            f.write("\tprint(\" %d + %d = %d \"" %(i, j, i/j))
             j += 1
     i += 1
 
