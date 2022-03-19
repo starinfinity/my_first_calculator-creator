@@ -14,27 +14,27 @@ f.write("sign = input('What do you want to do? +, -, /, or *: ')")
 f.write("num2 = int(input('Please choose your second number: '))")
 
 i = 0
-while i < 100:
+while i < 1000:
     j = 0
-    while j < 100:
+    while j < 1000:
         f.write("if num1 == %d and sign == '+' and num2 == %d :" %(i , j))
         f.write("\tprint(\" %d + %d = %d \"" %(i, j, i+j))
         j += 1
     i += 1
 
 i = 0
-while i < 100:
+while i < 1000:
     j = 0
-    while j < 100:
+    while j < 1000:
         f.write("if num1 == %d and sign == '-' and num2 == %d :" %(i , j))
         f.write("\tprint(\" %d - %d = %d \"" %(i, j, i-j))
         j += 1
     i += 1
 
 i = 0
-while i < 100:
+while i < 1000:
     j = 0
-    while j < 100:
+    while j < 1000:
         f.write("if num1 == %d and sign == '*' and num2 == %d :" %(i , j))
         f.write("\tprint(\" %d + %d = %d \"" %(i, j, i*j))
         j += 1
@@ -42,9 +42,9 @@ while i < 100:
 
 
 i = 1
-while i < 100:
+while i < 1000:
     j = 0
-    while j < 100:
+    while j < 1000:
         if i == 0 or j == 0:
             f.write("if num1 == %d and sign == '/' and num2 == %d :" %(i , j))
             f.write("\tprint(\" %d + %d = 0 \"" %(i, j))
